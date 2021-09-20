@@ -124,4 +124,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 #        MESSAGE  CONFIGURATION           #
 ###########################################
 
+MESSAGE_TAGS = {messages.DEBUG: "secondary"}
+MESSAGE_TAGS = {messages.INFO: "info"}
+MESSAGE_TAGS = {messages.SUCCESS: "success"}
+MESSAGE_TAGS = {messages.WARNING: "warning"}
 MESSAGE_TAGS = {messages.ERROR: "danger"}
